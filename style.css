@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: space-between;
+  height: 420px;
+  width: 90%;
+  border: 15px solid transparent;
+  border-image-source: url(images/border.png);
+  border-image-repeat: stretch;
+  border-image-slice: 30;
+}
+
+.welcome-left {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.welcome-right {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0px 0px 300px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+.noticias {
+  height: 280px;
+  width: 200px;
+  margin: 10px;
+}
+
+.previsão {
+  display: flex;
+  margin: 10px 10px 5px 30px;
+}
