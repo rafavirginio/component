@@ -1,118 +1,119 @@
 <!DOCTYPE html>
 
 <html>
-  
   <head>
-  <title>Layout</title>
-    <link rel="stylesheet" href="style.css"/>
-	<script src="http://code.jquery.com/jquery-1.11.2.js"></script>
-	
-		
+    <title>Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  
- <script type="text/javascript">
-rssfeed_url = new Array(); 
-rssfeed_url[0]="http://g1.globo.com/dynamo/mundo/rss2.xml"; 
-rssfeed_url[1]="http://g1.globo.com/dynamo/economia/rss2.xml";  
-rssfeed_frame_width="240"; 
-rssfeed_frame_height="230";
-rssfeed_frame_border="off";  
-rssfeed_scroll="on"; 
-rssfeed_scroll_step="6"; 
-rssfeed_scroll_bar="off"; 
-rssfeed_target="_blank"; 
-rssfeed_font_size="12"; 
-rssfeed_font_face=""; 
-rssfeed_border="on"; 
-rssfeed_css_url="http://feed.surfing-waves.com/css/style4.css"; 
-rssfeed_title="on"; 
-rssfeed_title_name=""; 
-rssfeed_title_bgcolor="#3366ff"; 
-rssfeed_title_color="#fff"; 
-rssfeed_title_bgimage=""; 
-rssfeed_footer="off"; 
-rssfeed_footer_name="rss feed"; 
-rssfeed_footer_bgcolor="#fff"; 
-rssfeed_footer_color="#333"; 
-rssfeed_footer_bgimage=""; 
-rssfeed_item_title_length="75"; 
-rssfeed_item_title_color="#666"; 
-rssfeed_item_bgcolor="#fff"; 
-rssfeed_item_bgimage=""; 
-rssfeed_item_border_bottom="on"; 
-rssfeed_item_source_icon="off"; 
-rssfeed_item_date="off"; 
-rssfeed_item_description="on"; 
-rssfeed_item_description_length="120"; 
-rssfeed_item_description_color="#666"; 
-rssfeed_item_description_link_color="#333"; 
-rssfeed_item_description_tag="off"; 
-rssfeed_no_items="0"; 
-rssfeed_cache = "a8731f4fb8be03648e5ae214825db6f7"; 
 
-</script> 
+  <script type="text/javascript">
+    rssfeed_url = new Array()
+    rssfeed_url[0] = 'http://g1.globo.com/dynamo/mundo/rss2.xml'
+    rssfeed_url[1] = 'http://g1.globo.com/dynamo/economia/rss2.xml'
+    rssfeed_frame_width = '240'
+    rssfeed_frame_height = '230'
+    rssfeed_frame_border = 'off'
+    rssfeed_scroll = 'on'
+    rssfeed_scroll_step = '6'
+    rssfeed_scroll_bar = 'off'
+    rssfeed_target = '_blank'
+    rssfeed_font_size = '12'
+    rssfeed_font_face = ''
+    rssfeed_border = 'on'
+    rssfeed_css_url = 'http://feed.surfing-waves.com/css/style4.css'
+    rssfeed_title = 'on'
+    rssfeed_title_name = ''
+    rssfeed_title_bgcolor = '#3366ff'
+    rssfeed_title_color = '#fff'
+    rssfeed_title_bgimage = ''
+    rssfeed_footer = 'off'
+    rssfeed_footer_name = 'rss feed'
+    rssfeed_footer_bgcolor = '#fff'
+    rssfeed_footer_color = '#333'
+    rssfeed_footer_bgimage = ''
+    rssfeed_item_title_length = '75'
+    rssfeed_item_title_color = '#666'
+    rssfeed_item_bgcolor = '#fff'
+    rssfeed_item_bgimage = ''
+    rssfeed_item_border_bottom = 'on'
+    rssfeed_item_source_icon = 'off'
+    rssfeed_item_date = 'off'
+    rssfeed_item_description = 'on'
+    rssfeed_item_description_length = '120'
+    rssfeed_item_description_color = '#666'
+    rssfeed_item_description_link_color = '#333'
+    rssfeed_item_description_tag = 'off'
+    rssfeed_no_items = '0'
+    rssfeed_cache = 'a8731f4fb8be03648e5ae214825db6f7'
+  </script>
   <body>
+    <div class="container">
+      <div class="header">
+        <div class="welcome-left">
+          <h1>Seja Bem Vindo !!</h1>
+          <img src="images/Welcome2.png" />
+        </div>
+        <div class="welcome-right">
+          <h1 class="h1-red">Prazer em Recebê-los</h1>
+          <!--Logo do cliente-->
+          <!-- <img src="images/admiral.jpg" /> -->
+        </div>
+      </div>
+      <div class="footer">
+        <video class="video" width="450" height="230" controls autoplay loop>
+          <source src="movie.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+        </video>
 
-
-<div class="container">
-
-<div class="header">
-<div class="welcome-left">
-<h1>Seja Bem Vindo !!</h1>
-<img src="images/Welcome2.png">
-</div>
-<div class="welcome-right">
-<h1>Prazer em Recebê-los</h1>
-<!--Logo da empresa-->
-<!img src="">
-
-</div>
-
-</div>
-<div class="footer">
- 
-<video class="video" width="450" height="230" controls autoplay loop>
-    <source src="movie.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-</video>
-
-
-<div class="logo-data-relogio">
-<div class="logo-component">
-<img src="images/logo_component.jpg">
-</div>
-<div class="data">
-<div align="center">
-			<output id="data" color="red" style="font-family: 'Calibri', 'avant garde'; font-size: 45px;"></output>
-		</div>
-
-
-</div>
-<div class="hora">
-<div  align="center" style="background-color: rgba(0,0,0, 1);">
-<output id="hora" style="font-family: 'arial black', 'avant garde'; color:white; font-size: 45px;"></output>				
-</div>	
-
-</div>
-</div>
-<div class ="noticias">
-<table>
- <td>
-  
- <script type="text/javascript" height="280" border="0" src="http://feed.surfing-waves.com/js/rss-feed.js"></script> 
- </td><td></td><td></td>
- </table>
-
-
-</div>
-<div class="previsão">
- <img src="https://www.tempo.com/wimages/fotoa520adee394d8455dd337c95a118e3ef.png">
-</div>
-
-
- 
- </div>
- </div>
+        <div class="logo-data-relogio">
+          <div class="logo-component">
+            <img src="images/logo_component.jpg" />
+          </div>
+          <div class="data">
+            <div align="center">
+              <output
+                id="data"
+                color="red"
+                style="font-family: 'Calibri', 'avant garde'; font-size: 45px"
+              ></output>
+            </div>
+          </div>
+          <div class="hora">
+            <div align="center" style="background-color: rgba(0, 0, 0, 1)">
+              <output
+                id="hora"
+                style="
+                  font-family: 'arial black', 'avant garde';
+                  color: white;
+                  font-size: 45px;
+                "
+              ></output>
+            </div>
+          </div>
+        </div>
+        <div class="noticias">
+          <table>
+            <td>
+              <script
+                type="text/javascript"
+                height="280"
+                border="0"
+                src="http://feed.surfing-waves.com/js/rss-feed.js"
+              ></script>
+            </td>
+            <td></td>
+            <td></td>
+          </table>
+        </div>
+        <div class="previsão">
+          <img
+            src="https://www.tempo.com/wimages/fotoa520adee394d8455dd337c95a118e3ef.png"
+          />
+        </div>
+      </div>
+    </div>
   </body>
-   <script src="script.js"></script>
+  <script src="script.js"></script>
 </html>

@@ -20,7 +20,7 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin: auto;
 }
 
 .welcome-right {
@@ -29,25 +29,35 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin: 50px 0px 0px 300px;
+  margin: auto;
+}
+.welcome-right img {
+  width: 15rem;
+  height: 8rem;
+  margin: auto;
 }
 
 h1 {
+  padding: 20px;
+  letter-spacing: 0.2rem;
+}
+.h1-red {
+  color: rgb(151, 8, 8);
   padding: 20px;
 }
 
 .footer {
   display: flex;
-  margin: 10px;
-  padding: 5px;
+  margin: auto;
+  padding: 0.5rem;
+}
+.logo-data-relogio {
+  margin: auto;
 }
 .noticias {
-  height: 280px;
-  width: 200px;
-  margin: 10px;
+  margin: auto;
 }
 
 .previsão {
-  display: flex;
-  margin: 10px 10px 5px 30px;
+  margin: auto;
 }
