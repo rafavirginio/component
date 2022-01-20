@@ -7,7 +7,7 @@
 .header {
   display: flex;
   flex-direction: space-between;
-  height: 420px;
+  height: 600px;
   width: 100%;
   border: 15px solid transparent;
   border-image-source: url(images/border.png);
