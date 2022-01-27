@@ -7,7 +7,7 @@
 .header {
   display: flex;
   flex-direction: space-between;
-  height: 600px;
+  height: 450px;
   width: 100%;
   border: 15px solid transparent;
   border-image-source: url(images/border.png);
@@ -56,8 +56,13 @@ h1 {
 .logo-data-relogio {
   margin: auto;
 }
-.noticias {
+table {
   margin: auto;
+  display: block;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .previsão {
